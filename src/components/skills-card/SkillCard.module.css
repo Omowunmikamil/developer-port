@@ -1,0 +1,17 @@
+.skill_card h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 3.5rem;
+    letter-spacing: -0.09375rem;
+    margin-bottom: 0.88rem;
+}
+
+.skill_card p {
+    color: #d9d9d9;
+    font-size: 1.125rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.75rem;
+}

@@ -1,0 +1,27 @@
+.project_container {
+    max-width: 74vw;
+    margin: 13.75rem auto;
+}
+
+.project_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.project_heading h2 {
+    color: #fff;
+    font-size: 5.5rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 5.5rem;
+    letter-spacing: -0.15625rem;
+}
+
+.project_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.51rem;
+    row-gap: 4.31rem;
+}

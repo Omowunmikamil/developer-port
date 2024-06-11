@@ -1,0 +1,26 @@
+.button {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Space Grotesk';
+    line-height: 1.625rem;
+    letter-spacing: 0.0823rem;
+    border: none;
+    border-bottom: 2px solid #4EE1A0;
+    background-color: transparent;
+    font-family: inherit;
+    padding-bottom: 0.62rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    color: #4EE1A0;
+    transform: scale(1.05);
+}
+
+.button:active {
+    transform: scale(0.95);
+}

@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 74vw;
+    margin: 0 auto;
+    padding-top: 2.44rem;
+
+    .heading {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 2rem;
+        letter-spacing: -0.02775rem;
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        position: relative;
+        z-index: 4;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .icons img:hover  {
+        transform: scale(1.05);
+    }
+    
+    .icon img:active {
+        transform: scale(0.95);
+    }
+}

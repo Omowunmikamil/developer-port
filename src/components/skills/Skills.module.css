@@ -1,0 +1,14 @@
+.skills {
+    max-width: 74vw;
+    margin: 4.5rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3.63rem;
+    position: relative;
+}
+
+.circle_2 {
+    position: absolute;
+    bottom: -18%;
+    right: -18%;
+}
